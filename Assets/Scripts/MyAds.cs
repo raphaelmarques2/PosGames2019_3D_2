@@ -19,6 +19,7 @@ public class MyAds : MonoBehaviour
 
     void ShowAds(string id)
     {
+        
         if (Advertisement.IsReady())
         {
             var options = new ShowOptions()
